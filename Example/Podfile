@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFFlowerDemoComponent_NetAPI_Example' do
+  pod 'FFFlowerDemoComponent_NetAPI', :path => '../'
+
+  target 'FFFlowerDemoComponent_NetAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
