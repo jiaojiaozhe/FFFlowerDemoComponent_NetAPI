@@ -135,6 +135,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Data/FFFlowerDemoComponent_Data.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_NetAPI/FFFlowerDemoComponent_NetAPI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools.framework"
@@ -143,6 +144,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Data/FFFlowerDemoComponent_Data.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_NetAPI/FFFlowerDemoComponent_NetAPI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools.framework"

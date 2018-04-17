@@ -65,7 +65,7 @@
 		998C0ECACCC182027891A3EF /* Pods-FFFlowerDemoComponent_NetAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_NetAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_NetAPI_Tests/Pods-FFFlowerDemoComponent_NetAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A78E5947CFAE8075A17A5549 /* Pods-FFFlowerDemoComponent_NetAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_NetAPI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_NetAPI_Example/Pods-FFFlowerDemoComponent_NetAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D2A104F76DDD2E7BFFC96918 /* Pods-FFFlowerDemoComponent_NetAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_NetAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_NetAPI_Example/Pods-FFFlowerDemoComponent_NetAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		ED836BAA955134FAE49CE1D5 /* FFFlowerDemoComponent_NetAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFFlowerDemoComponent_NetAPI.podspec; path = ../FFFlowerDemoComponent_NetAPI.podspec; sourceTree = "<group>"; };
+		ED836BAA955134FAE49CE1D5 /* FFFlowerDemoComponent_NetAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFFlowerDemoComponent_NetAPI.podspec; path = ../FFFlowerDemoComponent_NetAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FEB68212EE49A5F620FA7FE3 /* Pods_FFFlowerDemoComponent_NetAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFFlowerDemoComponent_NetAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -308,6 +308,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FFFlowerDemoComponent_NetAPI_Example/Pods-FFFlowerDemoComponent_NetAPI_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config.framework",
 				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Data/FFFlowerDemoComponent_Data.framework",
 				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_NetAPI/FFFlowerDemoComponent_NetAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools.framework",
@@ -317,6 +318,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Config.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Data.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_NetAPI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Tools.framework",
